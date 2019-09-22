@@ -2,7 +2,6 @@
 class Anagram 
   
   attr_accessor :word 
-  words = []
   
   def initialize(word)
     @word = word
@@ -11,7 +10,6 @@ class Anagram
   def match(word_array) 
     word_array.each do |w|
       w.split(" ").sort == @word.split(" ").sort
-      words << word
     end
   end
   
