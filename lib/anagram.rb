@@ -2,6 +2,7 @@
 class Anagram 
   
   attr_accessor :word 
+  %w(words)
   
   def initialize(word)
     @word = word
