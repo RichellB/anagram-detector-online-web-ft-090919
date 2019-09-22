@@ -13,5 +13,6 @@ class Anagram
       w.split(" ").sort == word.sort
       words << word
     end
+  end
   
 end 
